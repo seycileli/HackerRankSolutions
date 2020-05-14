@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class JavaLoopsI {
 
     private static Scanner sc;
+
     public static void main(String[] args) {
         sc = new Scanner(System.in);
 
@@ -18,7 +19,6 @@ public class JavaLoopsI {
         int N = sc.nextInt();
 
         for (int i = 1; i <= 10; i++) {
-
             System.out.println(N + " x " + i + " = " + (N * i));
         }
         sc.close();
@@ -32,7 +32,6 @@ public class JavaLoopsI {
 
         //exit i when it becomes greater than or equaled to 10
         while (i <= 10) {
-
             //print i in new line every time
             System.out.println(N + " x " + i + " = " + (N * i));
             i++; //increment i every time
